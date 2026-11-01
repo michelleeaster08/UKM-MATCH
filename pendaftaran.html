@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UKM MATCH - Informasi dan Pendaftaran</title>
+</head>
+<body>
+<header>
+<h1>Informasi dan Pendaftaran UKM</h1>
+<p>Pelajari persyaratan dan contoh jadwal open recruitment.</p>
+</header>
+<nav aria-label="Navigasi utama">
+<a href="index.html">Beranda</a> |
+<a href="ukm.html">Daftar UKM</a> |
+<a href="pendaftaran.html">Informasi &amp; Pendaftaran</a>
+</nav>
+<main>
+<section>
+<h2>Persyaratan Umum</h2>
+<p>Berikut contoh persyaratan umum untuk mahasiswa yang ingin mengikuti kegiatan UKM.</p>
+<ol>
+<li>Merupakan mahasiswa aktif.</li>
+<li>Mengisi formulir pendaftaran.</li>
+<li>Bersedia mengikuti kegiatan dan aturan UKM.</li>
+<li>Mengikuti proses seleksi atau perkenalan jika diperlukan.</li>
+</ol>
+</section>
+<section>
+<h2>Contoh Jadwal Open Recruitment</h2>
+<p>Tabel berikut hanya simulasi jadwal untuk tugas praktikum.</p>
+<table border="1">
+<caption>Jadwal Simulasi Open Recruitment UKM</caption>
+<thead><tr><th scope="col">Nama UKM</th><th scope="col">Periode</th><th scope="col">Lokasi Informasi</th></tr></thead>
+<tbody>
+<tr><td>UKM Musik</td><td>1–15 September 2026</td><td>Sekretariat UKM (simulasi)</td></tr>
+<tr><td>UKM Futsal</td><td>5–20 September 2026</td><td>Lapangan Kampus (simulasi)</td></tr>
+<tr><td>UKM Fotografi</td><td>10–25 September 2026</td><td>Ruang Kegiatan Mahasiswa (simulasi)</td></tr>
+<tr><td>UKM Robotika</td><td>15–30 September 2026</td><td>Laboratorium (simulasi)</td></tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Formulir Minat Bergabung</h2>
+<p>Formulir ini merupakan demonstrasi HTML dan belum mengirim atau menyimpan data.</p>
+<form action="#" method="get">
+<p><label for="nama">Nama lengkap:</label><br><input type="text" id="nama" name="nama" required></p>
+<p><label for="email">Alamat email:</label><br><input type="email" id="email" name="email" required></p>
+<p><label for="nim">Nomor Induk Mahasiswa (NIM):</label><br><input type="text" id="nim" name="nim" required></p>
+<p><label for="ukm">UKM yang diminati:</label><br>
+<select id="ukm" name="ukm" required>
+<option value="">-- Pilih UKM --</option>
+<option value="musik">UKM Musik</option><option value="futsal">UKM Futsal</option>
+<option value="fotografi">UKM Fotografi</option><option value="robotika">UKM Robotika</option>
+</select></p>
+<fieldset>
+<legend>Apakah kamu bersedia mengikuti kegiatan rutin?</legend>
+<input type="radio" id="bersedia" name="kesiapan" value="bersedia" required><label for="bersedia">Ya, bersedia</label><br>
+<input type="radio" id="belum" name="kesiapan" value="belum"><label for="belum">Belum yakin</label>
+</fieldset>
+<p><input type="checkbox" id="persetujuan" name="persetujuan" required><label for="persetujuan">Saya menyatakan informasi yang diisi adalah benar.</label></p>
+<button type="submit">Kirim Formulir</button>
+<button type="reset">Reset</button>
+</form>
+</section>
+</main>
+<footer>
+<p>&copy; 2026 UKM MATCH - Institut Teknologi PLN</p>
+<p><small>Informasi dan jadwal rekrutmen di halaman ini merupakan data simulasi untuk praktikum.</small></p>
+</footer>
+</body>
+</html>
